@@ -1,0 +1,15 @@
+{
+  "template": "https://github.com/statisticsnorway/stat-hurtigstart-template-master",
+  "commit": "95d069beaebe17131c0ef24cf271def3641a95f9",
+  "checkout": "0.2.0",
+  "context": {
+    "cookiecutter": {
+      "full_name": "Bjørn-Andre Skaar",
+      "email": "bskaar@gmail.com",
+      "project_name": "dapla-smoketests",
+      "description": "Notebook repo for smoke tests running on Dapla",
+      "_template": "https://github.com/statisticsnorway/stat-hurtigstart-template-master"
+    }
+  },
+  "directory": null
+}
