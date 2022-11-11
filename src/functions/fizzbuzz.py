@@ -7,7 +7,7 @@ def fizz(x:int) -> str:
 
 def buzz(x:int) -> str:
     if x%5 == 0:
-        return "buzz"
+        return "buxx"
     return ""
     
 def fizzbuzz(x:list) -> list:
