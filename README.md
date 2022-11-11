@@ -1,10 +1,9 @@
 # dapla-smoketests
 
-Notebook repo for smoke tests running on Dapla
+Notebook repo for smoke tests and feature testing of the Jupyterlab platform.
 
-Opprettet av:
-Bjørn-Andre Skaar <bskaar@gmail.com>
+## Running smoke tests
 
----
-
-Legg inn beskrivelse av prosjektet her.
+```shell
+poetry run poe smoke-test
+```

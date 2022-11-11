@@ -27,8 +27,7 @@ poethepoet = "*"
 nbval = "*"
 
 [tool.poe.tasks]
-test = "pytest -vvvv --cache-clear --nbval"
-#test = { cmd = "py.test --nbval" }
+smoke-test = "pytest -vvvv --cache-clear --nbval notebooks/smoke-tests"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
