@@ -14,7 +14,9 @@ packages = [
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
 requests = ">=2.27.1"
-dapla-toolbelt = ">=1.3.3"
+dapla-toolbelt = ">=1.3.5"
+pyarrow = "9.0.0"
+dapla-statbank-client = "^0.0.3"
 
 [tool.poetry.group.dev.dependencies]
 jupyterlab = ">=3.4.5"
