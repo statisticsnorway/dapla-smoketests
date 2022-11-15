@@ -26,13 +26,3 @@ poetry run poe smoke-test
 * [nbval](https://github.com/computationalmodelling/nbval) for testing and validating notebooks.
 
 The **nbval** extension looks through every cell that contains code in an IPython notebook and then uses the **pytest** system to compare the outputs stored in the notebook with the outputs of the cells when they are executed. Because of this, the outputs of the smoke-tests are stored and not stripped (e.g. with [nbstripout](https://github.com/kynan/nbstripout)).
-
-
-#### Install all dependencies
-
-```shell
-poetry install
-```
-
-## Running smoke tests
-
