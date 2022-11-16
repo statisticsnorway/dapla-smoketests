@@ -8,7 +8,6 @@ car
 carData
 caret
 class
-clock
 cluster
 codetools
 collections
