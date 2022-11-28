@@ -6,10 +6,10 @@ Notebook repo for smoke tests and feature testing of the Jupyterlab platform.
 
 1. Open <https://jupyter.dapla.ssb.no> or another Jupyter Lab environment
 2. Clone this repo
-3. Install all dependencies:
+3. Install dependencies and a kernel:
 
 ```shell
-poetry install
+ssb-project build
 ```
 
 4. Run the smoke tests:
