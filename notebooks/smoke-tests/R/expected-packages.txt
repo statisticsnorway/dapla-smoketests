@@ -160,7 +160,6 @@ classInt
 cli
 clipr
 colorspace
-colourpicker
 commonmark
 config
 countrycode
@@ -255,7 +254,6 @@ magrittr
 matrixStats
 memoise
 mime
-miniUI
 minqa
 mitools
 modelr
